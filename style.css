@@ -1,0 +1,118 @@
+#header{
+  border: 1px solid;
+  background-color: black;
+  color: white;
+  display: flex;
+
+} 
+
+
+#box2{
+    background-image: url(Images/background.jpg);
+    background-position: centre;
+    background-size: cover;
+    width: 90%;
+    height:500px;
+    align-self: center;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 40px;
+}
+#side{
+    text-align-last: right;
+}
+#section1{
+    display: flex;
+    width: fit-content;
+    border: 1px solid white;
+}
+.image{
+    width: 350px;
+}
+#section2{
+    display: flex;
+    max-width: fit-content;
+}
+h1{
+    font-size: 30px;
+    padding : 30px;
+}
+#section3{
+    display:flex;
+    width: fit-content;
+    gap:60%;
+}
+#div{
+    margin-top: 10%;
+}
+#button1{
+    width:40%;
+    border-radius: 20px;
+    padding: 10 px;
+    background-color: black;
+    color: beige;
+}
+#section4{
+    display: flex;
+    max-width: fit-content;
+}  
+#section5{
+     background-image: url(Images/backgroundimage.jpg);
+     background-position: centre;
+    background-size: cover;
+    width: 90%;
+    height:300px;
+    align-self: center;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 60px;
+     
+}
+
+#Now{
+    background-color: black;
+    color: white;
+    padding : 20px;
+    width: 15%;
+    border-radius: 20px;
+
+}
+#button{
+    background-color: black;
+    color: white;
+    padding : 100px;
+    width: 15%;
+    border-radius: 20px; 
+}
+footer{
+    border: 1px solid;
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    align-items: flex-end;
+}
+#icon{
+     color: white;
+}
+
+#p{
+    font-size: 50px;
+    font-weight: 100;
+}
+.input{
+    padding: 10px;
+    color:white;
+    background-color: black;
+
+}
+#on{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
