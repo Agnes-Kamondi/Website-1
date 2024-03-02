@@ -3,18 +3,35 @@
   background-color: black;
   color: white;
   display: flex;
+  align-items: center;
+  height: fit-content;
+  gap: 20%;
 
-} 
+}  
+#first{
+    display: flex;
+}
+#nav{
+    border: 1px solid white;
+    display: flex;
+    background-color: darkgray;
+    padding: 5px;
+    color: black;
+    border-radius: 20px;
+}
+#last{
+    display:flex;
+}
 
 
 #box2{
-    background-image: url(Images/background.jpg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/background.jpg");
     background-position: centre;
     background-size: cover;
     width: 90%;
     height:500px;
     align-self: center;
-    padding: 30px;
+    padding: 60px;
     border-radius: 20px;
     margin: 40px;
 }
@@ -34,54 +51,47 @@
     max-width: fit-content;
 }
 h1{
-    font-size: 30px;
+    font-size: 50px;
     padding : 30px;
 }
 #section3{
     display:flex;
     width: fit-content;
-    gap:60%;
+    gap:50%;
 }
 #div{
     margin-top: 10%;
-}
-#button1{
-    width:40%;
-    border-radius: 20px;
-    padding: 10 px;
-    background-color: black;
-    color: beige;
 }
 #section4{
     display: flex;
     max-width: fit-content;
 }  
 #section5{
-     background-image: url(Images/backgroundimage.jpg);
+     background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/backgroundimage.jpg);
      background-position: centre;
     background-size: cover;
     width: 90%;
     height:300px;
-    align-self: center;
-    padding: 30px;
+    text-align: center;
+    padding: 60px;
     border-radius: 20px;
-    margin: 60px;
+    margin: 50px;
      
 }
 
 #Now{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding : 20px;
     width: 15%;
     border-radius: 20px;
 
 }
-#button{
+#button1{
     background-color: black;
     color: white;
-    padding : 100px;
-    width: 15%;
+    padding : 20px;
+    width: 50%;
     border-radius: 20px; 
 }
 footer{
@@ -91,28 +101,48 @@ footer{
     color: white;
     background-color: black;
     align-items: flex-end;
-}
-#icon{
-     color: white;
+    padding: 50px;
 }
 
 #p{
     font-size: 50px;
     font-weight: 100;
+    color : white;
 }
 .input{
-    padding: 10px;
-    color:white;
-    background-color: black;
+    padding: 20px;
+    color:black;
+    background-color:  white;
+    width:20%;
 
 }
 #on{
-    padding: 10px;
-    background-color: black;
-    color: white;
+    padding: 20px;
+    background-color:white;
+    color: black;
 }
 #nav{
     display: flex;
     justify-content: space-between;
     gap: 10px;
+}#heading{
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+}
+#icon{
+    gap:10%;
+}
+#p{
+    font-size: 50px;
+}
+#design{
+    font-size: 30px;
+}
+.heart{
+    margin-bottom: 30%;
+}
+.image1{
+    width: 700px;
+
 }
